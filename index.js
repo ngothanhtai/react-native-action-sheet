@@ -39,6 +39,7 @@ module.exports =  React.createClass({
               textStyle={{
                 color: '#F9BF3B',
                 fontFamily: 'OpenSans', fontSize: 20,
+                ...this.props.textStyle
               }}
               onPress={this.props.onCancel}>{this.props.cancelText}</Button>
           </Sheet>
